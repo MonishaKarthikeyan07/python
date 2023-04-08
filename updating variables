@@ -1,0 +1,33 @@
+# Declare variables
+num1 = 10
+num2 = 5.5
+name = "abc"
+is_true = True
+
+# Print variables
+print("num1 =", num1)
+print("num2 =", num2)
+print("name =", name)
+print("is_true =", is_true)
+
+# Change variables
+num1 = 20
+num2 = 3.14159
+name = "def"
+is_true = False
+
+# Print changed variables
+print("num1 =", num1)
+print("num2 =", num2)
+print("name =", name)
+print("is_true =", is_true)
+
+# Use variables in expressions
+sum_num = num1 + num2
+product_num = num1 * num2
+concat_name = name + " Smith"
+
+# Print expressions
+print("sum_num =", sum_num)
+print("product_num =", product_num)
+print("concat_name =", concat_name)
