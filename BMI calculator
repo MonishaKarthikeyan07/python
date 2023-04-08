@@ -1,0 +1,20 @@
+# Define variables
+name = (input("Enter your name"))
+age = int(input("enter your age"))
+height_cm = int(input("enter your height"))
+weight = int(input("enter weight"))
+is_student = bool(input("true or false"))
+
+# Print variable values
+print("Name:", name)
+print("Age:", age)
+print("Height (cm):", height_cm)
+print("Is student:", is_student)
+
+# Calculate BMI using variables
+height_m = height_cm / 100
+weight_kg = weight
+bmi = weight_kg / (height_m ** 2)
+
+# Print BMI value
+print("BMI:", bmi)
