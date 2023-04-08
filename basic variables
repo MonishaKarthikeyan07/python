@@ -1,0 +1,31 @@
+# Define variables
+name = "John"
+age = 25
+height_cm = 175.5
+is_student = True
+
+# Print variable values
+print("Name:", name)
+print("Age:", age)
+print("Height (cm):", height_cm)
+print("Is student:", is_student)
+
+# Update variable values
+name = "Jane"
+age = 30
+height_cm = 165.2
+is_student = False
+
+# Print updated variable values
+print("Name:", name)
+print("Age:", age)
+print("Height (cm):", height_cm)
+print("Is student:", is_student)
+
+# Calculate BMI using variables
+height_m = height_cm / 100
+weight_kg = 70
+bmi = weight_kg / (height_m ** 2)
+
+# Print BMI value
+print("BMI:", bmi)
