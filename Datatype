@@ -1,0 +1,33 @@
+# Integer data type
+x = 7
+print(f"x is of type {type(x)}")
+
+# Float data type
+y = 9.38
+print(f"y is of type {type(y)}")
+
+# Boolean data type
+z = True
+print(f"z is of type {type(z)}")
+
+# String data type
+name = "abc"
+print(f"name is of type {type(name)}")
+
+# List data type
+fruits = ["apple", "orange", "guava"]
+print(f"fruits is of type {type(fruits)}")
+
+# Tuple data type
+person = ("abc", 19, "female")
+print(f"person is of type {type(person)}")
+
+# Set data type
+colors = {"red", "green", "blue"}
+print(f"colors is of type {type(colors)}")
+
+# Dictionary data type
+person_dict = {"name": "abc", "age": 19, "gender": "female"}
+print(f"person_dict is of type {type(person_dict)}")
+
+
