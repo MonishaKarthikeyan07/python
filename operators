@@ -1,0 +1,58 @@
+#Arithmetic operators
+a=20
+b=10
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a%b)
+print(a**b)
+
+#logical operators
+a="true"
+b="false"
+print(a and b)
+print(a or b)
+print(not b)
+
+a=20
+b=10
+print(a>b and a==b)
+print(a>b or a==b)
+
+#comparison operators
+print(a==b)
+print(a!= b)
+print(a>b)
+print(a<b)
+print(a>=b)
+print(a<=b)
+
+#Assignment operators
+a+=b
+print(a)
+a-=4
+print(a)
+
+#Bitwise operators
+a=20
+b=10
+print(a&b)
+print(a|b)
+print(a^b)
+print(~b)
+print(a<<b)
+print(a>>b)
+
+#Identity operators
+print(a is b)
+print(a is not b)
+print(a is 5)
+print(b is 10)
+
+#Membership operators
+a=[10,20,30]
+print(10  in a)
+print(20  not in a)
+
+
