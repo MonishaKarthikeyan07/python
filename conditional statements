@@ -1,0 +1,20 @@
+#getting age as input
+age=(int(input("enter your age:")))
+
+#using conditional statement to check eligibility
+if age>=18:
+    print("you're eligible to vote")
+    registered = input("have you registered y/n:")
+    
+    if registered == "y":
+        print("you are ready to vote")
+    elif registered == "n":
+        print("Register first")
+    else:
+        print("invalid value")
+        
+#calculating years to wait for voting
+else:
+    print("you are not eligible to vote")
+    years_left = 18-age
+    print("you have to wait ",years_left,"years to vote")
