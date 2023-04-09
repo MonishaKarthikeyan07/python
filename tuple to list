@@ -1,0 +1,11 @@
+#tuple
+name = input("Enter name")
+age = int(input("Enter age"))
+gender = input("Enter gender")
+person_tuple = (name,age,gender)
+print(person_tuple)
+
+
+#list
+people_list = list(person_tuple) 
+print(people_list)
