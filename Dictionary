@@ -1,0 +1,25 @@
+#define dictionary
+my_dict = {
+    "name" : "abc",
+    "age" : 21,
+    "city" : "xyz"
+    
+}
+#printing dictionary
+print("Dictionary",my_dict)
+
+#printing single value from dictionary
+print("Name:",my_dict["name"])
+print("Age:",my_dict["age"])
+
+#updating values in dictionary
+my_dict["age"]=22
+print("updated age:",my_dict["age"])
+
+#adding additional variables to dictioanry
+my_dict["contact"]=9876543210
+print("Dictionary:",my_dict)
+
+#deleting any variable from dictionary
+del my_dict["city"]
+print("Dictionary:",my_dict)
